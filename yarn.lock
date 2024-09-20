@@ -1306,10 +1306,9 @@ nanoid@^3.3.4:
   resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.3.7.tgz#d0c301a691bc8d54efa0a2226ccf3fe2fd656bd8"
   integrity sha512-eSRppjcPIatRIMC1U6UngP8XFcz8MQWGQdt1MTBQ7NaAmvXDfvNxbvWV3x2y6CdEUciCSsDHDQZbhYaB8QEo2g==
 
-"next-translate@file:./next-translate":
-  version "1.4.0"
-  dependencies:
-    messageformat "4.0.0-7"
+"next-translate@link:./next-translate":
+  version "0.0.0"
+  uid ""
 
 next@12.3.1:
   version "12.3.1"
