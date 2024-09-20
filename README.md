@@ -12,7 +12,8 @@ Then:
 
 * `yarn`
 * `yarn build:next-translate`
-* `yarn build` (broken)
+* `yarn build`
+* `yarn dev`
 
 # Basic example
 
