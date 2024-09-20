@@ -1,0 +1,3 @@
+[submodule "next-translate"]
+	path = next-translate
+	url = https://github.com/ryzokuken/next-translate

@@ -1,0 +1,23 @@
+{
+  "name": "-",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build:next-translate": "cd node_modules/next-translate && yarn --ignore-scripts && yarn clean && cross-env NODE_ENV=production && yarn tsc",
+    "build": "next build --debug"
+  },
+  "dependencies": {
+    "next": "12.3.1",
+    "next-translate": "file:./next-translate",
+    "react": "link:./next-translate/node_modules/react",
+    "react-dom": "link:./next-translate/node_modules/react-dom"
+  },
+  "devDependencies": {
+    "@babel/core": "7.16.0",
+    "@babel/preset-env": "7.25.4",
+    "@babel/preset-react": "7.24.7",
+    "@babel/preset-typescript": "7.16.0"
+  }
+}
